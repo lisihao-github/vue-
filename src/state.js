@@ -38,7 +38,7 @@ function initData(vm) {
     // MVVM模式 数据变化可以驱动视图变化
     // Object.defineProperty() 给属性增加 get 方法 和 set 方法
     observe(data)
-
+    
 }
 function initComputed() { }
 function initWatch() { }
